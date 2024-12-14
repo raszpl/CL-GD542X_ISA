@@ -67,4 +67,4 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 [^1]: https://resources.altium.com/p/guard-traces-hit-or-myth.
 [^2]: https://resources.altium.com/p/how-to-use-a-star-point-for-analog-ground-digital-ground-connection
 [^3]: https://resources.pcb.cadence.com/blog/2021-should-you-ever-separate-analog-and-digital-ground-planes
-[^4]: Seven part video series from Hans Rosenberg https://www.youtube.com/@HansRosenberg74/videos
+[^4]: "Ground planes in a PCB layout with 30 years of experience: The ultimate guide" by Hans Rosenberg https://www.youtube.com/watch?v=EEb_0dja8tE&list=PLsWHPs7La-3KUY2JDUyrz0Jc0xw8kH4zQ
