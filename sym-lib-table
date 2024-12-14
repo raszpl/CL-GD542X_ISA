@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "542xISA-rescue")(type "KiCad")(uri "${KIPRJMOD}/542xISA-rescue.kicad_sym")(options "")(descr ""))
+)
