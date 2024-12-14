@@ -13,7 +13,7 @@ like between:
 - long big one under extended ISA slot
 - A2_ISA 3 4 5 6 7
 
-Ground that is not solid plane or densely (<wavelenght) stitched to solid plane no longer works as ground, it works like an antenna and amplifies interference. In the past guard traces were used before we had good modeling and understanding of magnetic propagation on the pcb, they only worked because putting one forced engineers to make more space between signal traces. All those dangling traces between signal tracks just resonate amplifying interference. https://resources.altium.com/p/guard-traces-hit-or-myth
+Ground that is not solid plane or densely (<wavelenght) stitched to solid plane no longer works as ground, it works like an antenna and amplifies interference. In the past guard traces were used before we had good modeling and understanding of magnetic propagation on the pcb, they only worked because putting one forced engineers to make more space between signal traces. All those dangling traces between signal tracks just resonate amplifying interference [^1].
 
 3 Extended ISA slot - routing VCC straight to C33 instead of going across the card wouldnt be breaking ground plane under D8-18 and LA signals.
 
@@ -24,7 +24,7 @@ Ground that is not solid plane or densely (<wavelenght) stitched to solid plane 
 5 Pin 159 oscillator goes in a weird around pad way making it go outside of ground plane coverage. Its especially critical to have uninterrupted ground under clock signals.
 
 <img src="images/squiggly_clock.png">
-6 Afaik separate isolated analog/digital ground planes is a relic of the past, modern techniques show it doesnt work if it has to cut up ground into multiple islands. https://www.youtube.com/watch?v=XD1jqFaA-uI https://www.youtube.com/watch?v=pgJfOklQwNA Here for example it paradoxically messes with analog signal integrity by making RGB video signals suddenly lose reference. Im fairly This Cirrus recommended design only makes things worse.
+6 Afaik separate isolated analog/digital ground planes is a relic of the past, modern techniques show it doesnt work if it has to cut up ground into multiple islands[^2] [^3] [^4]. Here for example it paradoxically messes with analog signal integrity by making RGB video signals suddenly lose reference. Im fairly This Cirrus recommended design only makes things worse.
 
 7 Optional EEprom pins also degrade analog RGB Video signals by breaking ground :( best option would be routing those two tracks with jumpers over analog RGB.
 
@@ -56,3 +56,12 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+
+# References
+[^1]: https://resources.altium.com/p/guard-traces-hit-or-myth
+
+[^2]: https://resources.altium.com/p/how-to-use-a-star-point-for-analog-ground-digital-ground-connection
+
+[^3]: https://resources.pcb.cadence.com/blog/2021-should-you-ever-separate-analog-and-digital-ground-planes
+
+[^4]: part video series from Hans Rosenberg https://www.youtube.com/@HansRosenberg74/videos
