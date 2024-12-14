@@ -51,7 +51,7 @@ Ground that is not solid plane or densely (<wavelenght) stitched to solid plane 
 
 TLDR Golden rule is every signal should run as close as possible (preferably over) a ground directly connecting source and destination of said signal with lowest impedance. Signals arent electrons, they are electromagnetic waves and need to close the loop. Closer the ground smaller the field, lower the ground impedance (bigger ground plane = better, traveling over multiple vias = bad) higher the frequency of mitigated interferences.
 
-Some of the fixes are heavy overdoing it via stitched ground patches and are most likely also bad :) 4 layer board of that size is $10 nowadays for infinitely healthier signal integrity and tons less work. Other than for fun there is very little sense manufacturing this as 2-layer design.
+Some of the fixes are heavily overdoing it via stitched ground patches and are most likely also bad :) Nowadays difference between from five 2-layer to 4-layer boards of that size is $20, another $15 for 6-layer with ENIG finish, for infinitely healthier signal integrity and tons less work. Other than for fun there is very little sense manufacturing this as 2-layer design, repository is only for educational value.
 
 # License
 The project is free for non-commercial reproduction. Do not sell it on Ebay or other platforms for profit. Do not make a closed source derivative. Share your experiences and ideas with the community.
