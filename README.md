@@ -16,7 +16,7 @@ like between:
 
 Ground that is not solid plane or densely (<wavelenght) stitched to solid plane no longer works as ground, it works like an antenna and amplifies interference. In the past guard traces were used before we had good modeling and understanding of magnetic propagation on the pcb, they only worked because putting one forced engineers to make more space between signal traces. All those dangling traces between signal tracks just resonate amplifying interference[^1].
 
-3 Extended ISA slot - routing VCC straight to C33 instead of going across the card wouldnt be breaking ground plane under D8-18 and LA signals.
+3 Extended ISA slot - routing VCC straight to C33 instead of going across the card wouldnt be breaking ground plane under D8-16 and LA signals.
 
 <img src="images/bad_gnd3.png">
 
