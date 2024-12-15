@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.4,
-          "width": 1.75
+          "drill": 0.8,
+          "height": 1.5,
+          "width": 1.5
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -1481,7 +1481,15 @@
       },
       {
         "netclass": "power",
-        "pattern": "IREF"
+        "pattern": "/IREF"
+      },
+      {
+        "netclass": "power",
+        "pattern": "/AVDD1"
+      },
+      {
+        "netclass": "power",
+        "pattern": "/AVDD4"
       }
     ]
   },
