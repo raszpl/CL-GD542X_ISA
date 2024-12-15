@@ -10,7 +10,7 @@ Initial:[<img src="images/542xISA_first_render_c.png" width='300'>](/images/542x
 
 Final:[<img src="images/542xISA_render_c.png" width='300'>](/images/542xISA_render.png?raw=true)[<img src="images/542xISA_render_bc.png" width='300'>](/images/542xISA_render_b.png?raw=true)
 
-Comparison between layouts: ([Original](/386RC-16%20diagram.png?raw=true), ([Initial optimization](/images/first.png?raw=true), ([Final version](/images/final.png?raw=true).
+Comparison between layouts: [Original](/images/original.png?raw=true), [Initial optimization](/images/first.png?raw=true), [Final version](/images/final.png?raw=true).
 
 Black holes and red are cuts in ground plane, the smaller they are the better. Ideally you want one uninterrupted plane. Second bad but better than nothing option is ground island densely stitched on top of tracks forced to go into ground plane. Third bad option is as short as possible cuts to the ground plane and picking slow/steady (reset, VCC) signals as the ones going across, jumping across couple signals here and there is a lesser crime than slicing ground across half the PCB height. Fourth 'Im desperate here' option is crossing signals at 90 degree angle and hoping PCB thickness is enough. People in the eighties and early nineties didnt have it easy, nowadays similar size 4-layer PCBs are mere $20-30 for quick turnaround pototypes, with 6-layer not far behind at $40!
 
